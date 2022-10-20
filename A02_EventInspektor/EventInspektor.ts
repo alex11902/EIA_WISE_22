@@ -37,7 +37,6 @@ function logInfo( _event:Event ) {
 
     console.log();
 
-
 }
 
 
