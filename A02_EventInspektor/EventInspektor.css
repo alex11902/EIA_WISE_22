@@ -1,6 +1,6 @@
 
 body{
-    background-color: rebeccapurple;
+    background-color: moccasin;
 }
 
 h1{
@@ -8,15 +8,50 @@ h1{
     margin: 2%;
 }
 
-.div1{
+#div1{
 
     padding: 2%;
     margin: auto;
-
+    background-color: teal;
 
 }
 
+#div0{
+
+    background-color:  rebeccapurple;
+    padding: 2%;
+    margin-top: 200px;
+    
+    
+}
+
+button{
+
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rebeccapurple;
+    border-radius: 2%;
+}
+
 span{
+
     position: fixed;
+    color: #3b2626f3;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
