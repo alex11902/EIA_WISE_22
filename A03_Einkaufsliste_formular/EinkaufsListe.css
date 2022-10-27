@@ -1,60 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body{
 
-background-color: teal;
-color: white;
-font-size: large;
-margin: 0;
+    background-color: aliceblue;
+    min-width: 375px;
+    min-height: 667px;
+    margin: 0;
 
 }
 
 header{
 
-    color: wheat;
-    font-size: 15px;
-    font-family: Montserrat, Helvetica, sans-serif;
-    margin: 3px;
-    padding: 0;
-    
-    
+
+    color: black;
+    width: 100%;
+    height: 20%;
+    font-family: Montserrat,Arial, sans-serif;
+    background-color: bisque;
+    text-align: center;
+    font-size: 14vw;
+
 }
+div#div1{
+
+
+    position: absolute;
+    min-width: 100%;
+    min-height: 60%;
+
+}
+
 
 footer{
 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    position: absolute;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    background-color: #1abc9c;
-    padding: 5px;
-    margin: 2px;
-    min-height: 20%;
+    background-color:cornflowerblue;
+    padding: auto;
+    margin: auto;
+    min-height: 27%;
     color: navy;
-
+    
 }
 
-
-.footerbox{
+#box{
   
-    
-    color: black;
-    font-family:'Montserrat';
+    color: cornflowerblue;
+    font-family:'Comic Sans MS';
     width: 50%;
-    margin: auto;    
-    bottom: 25px;
-    padding: auto;
-    max-width: 48%;
-    max-height: 20%;
+    margin: auto;
+    bottom: 2vw;
+    padding: 1%;
+    max-width: 200px;
+    min-height: 10vw;
     margin-right: 2%;
     margin-left: 2%;
-
-
-}
-
-
-h1{
-
-    color:wheat;
+    background:moccasin;
+    border-radius: 12px;
+    border: 1px solid black;
+    display: block;
+    justify-content: center;
     text-align: center;
 
+
 }
+
+
+
+
+a img[src$=".svg"]{
+
+    opacity: 25%;
+  
+  }
+
+a img[src$=".svg"]:hover{
+
+    opacity: 100%;
+    transform: scale(1.2);
+    
+  }
