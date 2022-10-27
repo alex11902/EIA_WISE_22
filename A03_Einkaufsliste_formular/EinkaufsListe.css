@@ -13,20 +13,19 @@ header{
 
 
     color: black;
-    width: 100%;
-    height: 20%;
+    width: 100vw;
+    height: 10vh;
     font-family: Montserrat,Arial, sans-serif;
     background-color: bisque;
     text-align: center;
-    font-size: 14vw;
+    font-size: 300%;
 
 }
 div#div1{
 
-
     position: absolute;
-    min-width: 100%;
-    min-height: 60%;
+    min-width: 100vw;
+    min-height: 60vh;
 
 }
 
@@ -35,35 +34,32 @@ footer{
 
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 20%;
-    position: absolute;
+    width: 100vw;
+    height: 30vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: baseline;
     background-color:cornflowerblue;
     padding: auto;
     margin: auto;
-    min-height: 27%;
-    color: navy;
     
 }
 
 #box{
   
-    color: cornflowerblue;
-    font-family:'Comic Sans MS';
-    width: 50%;
-    margin: auto;
+    color: black;
+    font-family:'Montserrat';
+    font-weight: bolder;
+    width: 80vw;
+    margin: 0;
     bottom: 2vw;
-    padding: 1%;
-    max-width: 200px;
-    min-height: 10vw;
+    padding: 2%;
     margin-right: 2%;
     margin-left: 2%;
+    margin-bottom: auto;
     background:moccasin;
-    border-radius: 12px;
-    border: 1px solid black;
+    border-radius: 8px;
+    border: 1px solid moccasin;
     display: block;
     justify-content: center;
     text-align: center;
@@ -71,7 +67,11 @@ footer{
 
 }
 
+a{
 
+    color: black;
+    
+}
 
 
 a img[src$=".svg"]{
