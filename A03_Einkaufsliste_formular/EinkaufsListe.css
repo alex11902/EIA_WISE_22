@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+
+body{
+
+background-color: teal;
+color: white;
+font-size: large;
+margin: 0;
+
+}
+
+header{
+
+    color: wheat;
+    font-size: 15px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    margin: 3px;
+    padding: 0;
+    
+    
+}
+
+footer{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #1abc9c;
+    padding: 5px;
+    margin: 2px;
+    min-height: 20%;
+    color: navy;
+
+}
+
+
+.footerbox{
+  
+    
+    color: black;
+    font-family:'Montserrat';
+    width: 50%;
+    margin: auto;    
+    bottom: 25px;
+    padding: auto;
+    max-width: 48%;
+    max-height: 20%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+
+}
+
+
+h1{
+
+    color:wheat;
+    text-align: center;
+
+}

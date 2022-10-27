@@ -11,10 +11,12 @@ namespace EventInspektor {
     
 window.addEventListener("load", handleLoad );
 
-let div0: HTMLElement = <HTMLElement>document.querySelector("div0");
-let div1: HTMLElement = <HTMLElement>document.querySelector("div1");
 
 function handleLoad( _event: Event ): void {
+
+    let div0: HTMLElement = <HTMLElement>document.querySelector("div0");
+    let div1: HTMLElement = <HTMLElement>document.querySelector("div1");
+
 
     document.addEventListener( "mousemove" , setInfoBox );
     document.addEventListener( "click" , logInfo );

@@ -9,9 +9,9 @@ Quellen: Hilfe von Henning Pils bekommen
 var EventInspektor;
 (function (EventInspektor) {
     window.addEventListener("load", handleLoad);
-    let div0 = document.querySelector("div0");
-    let div1 = document.querySelector("div1");
     function handleLoad(_event) {
+        let div0 = document.querySelector("div0");
+        let div1 = document.querySelector("div1");
         document.addEventListener("mousemove", setInfoBox);
         document.addEventListener("click", logInfo);
         document.addEventListener("keyup", logInfo);

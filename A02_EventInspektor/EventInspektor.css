@@ -45,6 +45,7 @@ button{
 button:hover{
     background-color: rebeccapurple;
     border-radius: 2%;
+    transition-duration: 0.4s;
 }
 
 span{
