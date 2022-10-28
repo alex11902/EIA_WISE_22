@@ -24,6 +24,12 @@ h1{
     
     
 }
+div{
+
+    display: flex;
+    justify-content: center;
+
+}
 
 button{
 
@@ -54,5 +60,6 @@ span{
     color: #3b2626f3;
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 
 }

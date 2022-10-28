@@ -35,9 +35,9 @@ div#additem{
     min-height: 15%;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    text-align: left;
-    margin-left: 20vw;
+    justify-content: center;
+    text-align: center;
+    
     
 
 }
@@ -108,8 +108,8 @@ button#delete{
     min-width: 2vh;
     max-width: 3vh;
     max-height: 3vh;
-    
-
+    justify-content: center;
+    margin: 5px;
 }
 footer{
 

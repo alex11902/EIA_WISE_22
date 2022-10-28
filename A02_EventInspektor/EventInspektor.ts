@@ -35,7 +35,7 @@ function handleLoad( _event: Event ): void {
 
 }
 
-function setInfoBox( _event:MouseEvent ): void {
+function setInfoBox( _event: MouseEvent ): void {
 
     let span: HTMLSpanElement = <HTMLSpanElement>document.querySelector("span");
     console.log(span);
