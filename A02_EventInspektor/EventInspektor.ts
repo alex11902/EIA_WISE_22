@@ -61,6 +61,11 @@ function logInfo( _event: Event ): void {
 
 }
 
+function customEvent( _event: CustomEvent ): void {
+
+    
+
+}
 
  
 

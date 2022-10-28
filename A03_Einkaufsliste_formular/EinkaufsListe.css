@@ -104,7 +104,10 @@ button#delete{
 
     border: 2px solid salmon;
     border-radius: 12px;
-    margin: 1%;
+    min-height: 2vw;
+    min-width: 2vh;
+    max-width: 3vh;
+    max-height: 3vh;
     
 
 }
