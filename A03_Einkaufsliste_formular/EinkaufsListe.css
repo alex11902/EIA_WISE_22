@@ -64,7 +64,7 @@ margin-right: 2vw;
 
 }
 
-p#addcomment{
+p#addComment{
 
     color: aliceblue;
     margin-top: 1%;
@@ -73,7 +73,7 @@ p#addcomment{
     margin-right: 2vw;
 }
 
-div select#addamount{
+div select#createAmount{
 
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -85,7 +85,7 @@ div select#addamount{
     max-height: 5vh;
 
 }
-input#checked{
+input#checkAsBought{
 
     background-color: none;
     border: 1px solid cornflowerblue;
