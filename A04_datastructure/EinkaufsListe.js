@@ -13,10 +13,8 @@ var Einkaufsliste;
     function itemEdit() {
         console.log("Item editieren");
     }
-    function () { }
-    delete ();
-    void {
-        console, : .log("Item löschen")
-    };
+    function deleteItem() {
+        console.log("Item löschen");
+    }
 })(Einkaufsliste || (Einkaufsliste = {}));
 //# sourceMappingURL=EinkaufsListe.js.map

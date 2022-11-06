@@ -18,7 +18,8 @@ namespace Einkaufsliste {
         console.log("Item editieren");
     }
 
-    function delete(): void {
+    function deleteItem(): void {
         console.log("Item löschen"); 
     }
+
 }
