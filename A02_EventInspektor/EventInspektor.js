@@ -39,7 +39,5 @@ var EventInspektor;
         console.log(_event.currentTarget);
         console.log(_event);
     }
-    function customEvent(_event) {
-    }
 })(EventInspektor || (EventInspektor = {}));
 //# sourceMappingURL=EventInspektor.js.map

@@ -1,22 +1,27 @@
 "use strict";
-var Einkaufsliste;
-(function (Einkaufsliste) {
+var EinkaufsListe;
+(function (EinkaufsListe) {
     window.addEventListener("load", handleLoad);
-    function handleLoad() {
+    let submitButton = document.getElementById("addItemSubmit");
+    let deleteIcons = document.querySelectorAll(".deleteIcon");
+    let editIcons = document.querySelectorAll(".editIcon");
+    function handleLoad(_event) {
+        submitButton.addEventListener("submit", addItem);
+        for (const icon of deleteIcons) {
+            icon.addEventListener("click", deleteItem);
+        }
+        for (const icon of editIcons) {
+            icon.addEventListener("click", editItem);
+        }
     }
-    function addItem() {
-        console.log("Item hinzugefügt");
+    function addItem(_event) {
+        console.log("Item was added.");
     }
-    function checkAsBought() {
-        console.log("Item als gekauft markiert");
+    function deleteItem(_event) {
+        console.log("Item will now be deleted.");
     }
-    function itemEdit() {
-        console.log("Item editieren");
+    function editItem(_event) {
+        console.log("Item can now be edited.");
     }
-    function () { }
-    delete ();
-    void {
-        console, : .log("Item löschen")
-    };
-})(Einkaufsliste || (Einkaufsliste = {}));
+})(EinkaufsListe || (EinkaufsListe = {}));
 //# sourceMappingURL=EinkaufsListe.js.map
