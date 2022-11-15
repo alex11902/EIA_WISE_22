@@ -1,4 +1,11 @@
 "use strict";
+/*
+ Aufgabe:<L03_Einkaufsliste>
+ Name: <Alexander Holstein>
+ Matrikel: <271466>
+ Datum: <13.11.2022>
+ Quellen: <Nils schiffman>
+*/
 var EinkaufsListe;
 (function (EinkaufsListe) {
     window.addEventListener("load", handleLoad);

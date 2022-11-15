@@ -1,11 +1,13 @@
 body {
-    background-color: salmon;
+    background-color: teal;
     background-attachment: fixed;
-    color:black;
+    color:rgb(255, 255, 255);
     font-family: fantasy;
     margin: 0;
 }
-
+p{
+    margin: 1%;
+}
 form#addItem{
 
 
@@ -31,6 +33,7 @@ header{
   text-align: center;
   font-size: 200%;
   width: 100vw;
+  color: black;
 
 }
 
