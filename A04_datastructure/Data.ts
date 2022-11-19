@@ -6,11 +6,24 @@ namespace shoppingList {
         comment: string;
     }
 
-    export interface Data {
-        [category: string]: Item[];
-    }
+    export let data: Item[] = [
 
-    export let data: Data = {
+    {
+
+    name: "milch" ,
+    amount: 5, 
+    comment: "hafer"
+
+    },
+
+    {   
         
-    };
+    name: "wasser",
+    amount: 5,
+    comment: "nur medium"
+    }
+        
+    ];
+
+
 }

@@ -1,8 +1,3 @@
-/*
-Name: alexander HOlstein
-quellen: nils schiffman
-datum:19.11.22
-*/
 namespace itemList {
 
     window.addEventListener("load", handleLoad);

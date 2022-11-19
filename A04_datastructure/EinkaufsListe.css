@@ -1,33 +1,49 @@
 body {
-    background-color: rgba(230, 25, 75, 0.65);
+    background-color: teal;
     background-attachment: fixed;
-    color:black;
-    font-size: medium;
+    color:rgb(255, 255, 255);
     font-family: fantasy;
     margin: 0;
 }
-
-h1 {
-
-    font-size: 3em;
-
+p{
+    margin: 1%;
 }
+form#addItem{
 
-div{
 
+    margin: 1%;
     display: inline-block;
     font-size: 1.5em;
 
 }
-form#addItem{
 
-    margin: 40px;
+img {
+    width: 4vw;
+    height: 4vw;
+}
+
+label{
+    font-size: 1rem;
+}
+
+header{
+
+  background-color: moccasin;
+  position: relative;
+  text-align: center;
+  font-size: 200%;
+  width: 100vw;
+  color: black;
 
 }
 
-img{
+footer{
 
-    width: 8%;
-    height: 8%;
+    bottom: 0;
+    background-color: moccasin;
+    position: absolute;
+    width: 100vw;
+    color: black;
+    padding: 1%;
 
 }

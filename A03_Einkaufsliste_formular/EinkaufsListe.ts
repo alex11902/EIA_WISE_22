@@ -17,19 +17,19 @@ namespace EinkaufsListe {
 
     function handleLoad( _event: Event): void {
         
-        submitButton.addEventListener("submit", addItem);
+        submitButton.addEventListener( "click", addItem);
 
         for ( const icon of deleteIcons ) {
-            icon.addEventListener("click", deleteItem);
+            icon.addEventListener( "click", deleteItem);
         }
 
         for ( const icon of editIcons) {
-            icon.addEventListener("click", editItem);
+            icon.addEventListener( "click", editItem);
         }
 
     }
 
-    function addItem(_event: Event): void {
+    function addItem( _event: Event): void {
 
         console.log("Item was added.");
 
@@ -44,5 +44,7 @@ namespace EinkaufsListe {
         console.log("Item can now be edited.");
 
     }
+
+
 
 }

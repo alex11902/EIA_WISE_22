@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EinkaufsListeD</title>
+    <title>EinkaufsListe</title>
     <script src="EinkaufsListe.js" defer></script>
     <link rel="stylesheet" href="EinkaufsListe.css">
 </head>
 <body>
+
     <header>
         Einkaufsliste
     </header>
      
-    <div id="div1">
-      <div id="additem">
-        <form>
-          <p id="p1">1</p>
-        <p id="addName">addname</p>
-        <select name="Amount" id="createAmount" ></select>
-        <p id="addComment">kommentar</p>
-        <input type="checkbox" id="checkAsBought">
-        <button id="delete"></button>
-        </form>
+    <div>
+
+      <div id="shoppingList">
+      <p> 3x Milch 
+          <img class="editIcon" src="https://img.icons8.com/cotton/64/000000/edit--v1.png" />
+          <img class="deleteIcon" src="https://img.icons8.com/color/48/000000/delete.png" />
+      </p>
+      <p> 5x Brötchen 
+          <img class="editIcon" src="https://img.icons8.com/cotton/64/000000/edit--v1.png" />
+          <img class="deleteIcon" src="https://img.icons8.com/color/48/000000/delete.png" />
+      </p>
+  </div>
+  <form id="addItem">
+      <label for="itemName">Gegenstand: </label>
+
+      <input type="text" id="itemName" placeholder="wasser">
+      <label for="itemAmount">Anzahl: </label>
+
+      <input type="number" id="itemAmount" placeholder="z.B. 3" min="1">
+      <label for="itemNotes">Notizen: </label>
+
+      <input type="text" id="itemNotes" placeholder="z.B. dringend">
+      <input type="button" id="addItemSubmit" value="Hinzufügen">
+      </form>
       </div>
-      
-    </div>
 
     <footer>
         
@@ -33,7 +46,7 @@
         Alexander Holstein
         <br>
         <a href="mailto:avholstein@web.de">avholstein@web.de</a>
-        
+      
       <br>
         <a href="https://www.instagram.com/alexandervincent.h/" style="float:inline-end;"><img src="../A03_Einkaufsliste_formular/assets/icon_insta.svg" alt="Instagram social" width="50px" height="50px"></a>
         <a href="https://www.youtube.com" style="float: inline-end;"><img src="../A03_Einkaufsliste_formular/assets/icon_youtube.svg" alt="Youtube social" width="50px" height="50px"></a>

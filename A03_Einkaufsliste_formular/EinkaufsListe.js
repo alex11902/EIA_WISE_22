@@ -13,7 +13,7 @@ var EinkaufsListe;
     let deleteIcons = document.querySelectorAll(".deleteIcon");
     let editIcons = document.querySelectorAll(".editIcon");
     function handleLoad(_event) {
-        submitButton.addEventListener("submit", addItem);
+        submitButton.addEventListener("click", addItem);
         for (const icon of deleteIcons) {
             icon.addEventListener("click", deleteItem);
         }
